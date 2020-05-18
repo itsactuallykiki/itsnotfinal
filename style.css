@@ -1,0 +1,1573 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  overflow: hidden;
+  //  border: solid 1px red;
+}
+body {
+  align-items: cneter;
+  height: 1000px;
+  width: 1600px;
+  margin: 0;
+}
+.word01 {
+  position: absolute;
+  display: flex;
+  z-index: 14;
+  right: 80px;
+  top: 100px;
+  width: 150px;
+  height: 120px;
+  transition: 0.5s;
+  background: black;
+  -webkit-mask: url(https://itsactuallykiki.github.io/fontpicture/Please.png);
+  -webkit-mask-size: cover;
+}
+.word01:hover {
+  -webkit-mask: url(https://itsactuallykiki.github.io/fontpicture/Please.png);
+  -webkit-mask-size: cover;
+  transform: scale(2);
+}
+.word02 {
+  position: absolute;
+  display: flex;
+  z-index: 14;
+  right: 80px;
+  top: 250px;
+  width: 150px;
+  height: 120px;
+  transition: 0.5s;
+  background: black;
+  -webkit-mask: url(https://itsactuallykiki.github.io/fontpicture/Drink.png);
+  -webkit-mask-size: cover;
+}
+.word02:hover {
+  -webkit-mask: url(https://itsactuallykiki.github.io/fontpicture/Drink.png);
+  -webkit-mask-size: cover;
+  transform: scale(2);
+}
+.word03 {
+  position: absolute;
+  display: flex;
+  z-index: 14;
+  right: 80px;
+  top: 400px;
+  width: 150px;
+  height: 120px;
+  transition: 0.5s;
+  background: black;
+  -webkit-mask: url(https://itsactuallykiki.github.io/fontpicture/UP.png);
+  -webkit-mask-size: cover;
+}
+.word03:hover {
+  -webkit-mask: url(https://itsactuallykiki.github.io/fontpicture/UP.png);
+  -webkit-mask-size: cover;
+  transform: scale(2);
+}
+.word11 {
+  position: absolute;
+  display: flex;
+  z-index: 14;
+  right: -15px;
+  top: 300px;
+  width: 150px;
+  height: 120px;
+  transition: 0.5s;
+  background: black;
+  -webkit-mask: url(https://itsactuallykiki.github.io/fontpicture/Li.png);
+  -webkit-mask-size: cover;
+}
+.word11:hover {
+  -webkit-mask: url(https://itsactuallykiki.github.io/fontpicture/Li.png);
+  -webkit-mask-size: cover;
+  transform: scale(2);
+}
+.word12 {
+  position: absolute;
+  display: flex;
+  z-index: 14;
+  right: -15px;
+  top: 360px;
+  width: 150px;
+  height: 120px;
+  transition: 0.5s;
+  background: black;
+
+  -webkit-mask: url(https://itsactuallykiki.github.io/fontpicture/Bi.png);
+  -webkit-mask-size: cover;
+}
+.word12:hover {
+  -webkit-mask: url(https://itsactuallykiki.github.io/fontpicture/Bi.png);
+  -webkit-mask-size: cover;
+  transform: scale(2);
+}
+.people {
+  position: absolute;
+  display: flex;
+  z-index: 14;
+  right: 400px;
+  top: 30px;
+  width: 150px;
+  height: 120px;
+  transition: 0.5s;
+  transform: scale(0.85);
+  background: black;
+  -webkit-mask: url(https://itsactuallykiki.github.io/fontpicture/people.png);
+  -webkit-mask-size: cover;
+  opacity: 0.6;
+  transition: opacity 1s ease-in-out;
+  -moz-transition: opacity 1s ease-in-out;
+  -webkit-transition: opacity 1s ease-in-out;
+}
+.people:hover {
+  opacity: 1;
+  transition: opacity 0.55s ease-in-out;
+  -moz-transition: opacity 0.55s ease-in-out;
+  -webkit-transition: opacity 0.55s ease-in-out;
+}
+.life {
+  position: absolute;
+  display: flex;
+  z-index: 14;
+  right: 400px;
+  top: 98px;
+  width: 150px;
+  height: 120px;
+  transition: 0.5s;
+  background: black;
+  transform: scale(1.1);
+  -webkit-mask: url(https://itsactuallykiki.github.io/fontpicture/life.png);
+  -webkit-mask-size: cover;
+  opacity: 0.6;
+  transition: opacity 1s ease-in-out;
+  -moz-transition: opacity 1s ease-in-out;
+  -webkit-transition: opacity 1s ease-in-out;
+}
+.life:hover {
+  opacity: 1;
+  transition: opacity 0.55s ease-in-out;
+  -moz-transition: opacity 0.55s ease-in-out;
+  -webkit-transition: opacity 0.55s ease-in-out;
+}
+.get {
+  position: absolute;
+  display: flex;
+  z-index: 14;
+  right: 400px;
+  top: 168px;
+  width: 150px;
+  height: 120px;
+  transition: 0.5s;
+  background: black;
+  -webkit-mask: url(https://itsactuallykiki.github.io/fontpicture/get.png);
+  -webkit-mask-size: cover;
+  opacity: 0.6;
+  transition: opacity 1s ease-in-out;
+  -moz-transition: opacity 1s ease-in-out;
+  -webkit-transition: opacity 1s ease-in-out;
+}
+.get:hover {
+  opacity: 1;
+  transition: opacity 0.55s ease-in-out;
+  -moz-transition: opacity 0.55s ease-in-out;
+  -webkit-transition: opacity 0.55s ease-in-out;
+}
+.pay {
+  position: absolute;
+  display: flex;
+  z-index: 14;
+  right: 395px;
+  top: 238px;
+  width: 150px;
+  height: 120px;
+  transition: 0.5s;
+  background: black;
+  -webkit-mask: url(https://itsactuallykiki.github.io/fontpicture/pay.png);
+  -webkit-mask-size: cover;
+  opacity: 0.6;
+  transition: opacity 1s ease-in-out;
+  -moz-transition: opacity 1s ease-in-out;
+  -webkit-transition: opacity 1s ease-in-out;
+}
+.pay:hover {
+  opacity: 1;
+  transition: opacity 0.55s ease-in-out;
+  -moz-transition: opacity 0.55s ease-in-out;
+  -webkit-transition: opacity 0.55s ease-in-out;
+}
+.need {
+  position: absolute;
+  display: flex;
+  z-index: 14;
+  right: 418px;
+  top: 313px;
+  width: 150px;
+  height: 120px;
+  transition: 0.5s;
+  background: black;
+  -webkit-mask: url(https://itsactuallykiki.github.io/fontpicture/need.png);
+  -webkit-mask-size: cover;
+  opacity: 0.6;
+  transition: opacity 1s ease-in-out;
+  -moz-transition: opacity 1s ease-in-out;
+  -webkit-transition: opacity 1s ease-in-out;
+}
+.need:hover {
+  opacity: 1;
+  transition: opacity 0.55s ease-in-out;
+  -moz-transition: opacity 0.55s ease-in-out;
+  -webkit-transition: opacity 0.55s ease-in-out;
+}
+.alot {
+  position: absolute;
+  display: flex;
+  z-index: 14;
+  right: 418px;
+  top: 383px;
+  width: 150px;
+  height: 120px;
+  transition: 0.5s;
+  background: black;
+  -webkit-mask: url(https://itsactuallykiki.github.io/fontpicture/alot.png);
+  -webkit-mask-size: cover;
+  opacity: 0.6;
+  transition: opacity 1s ease-in-out;
+  -moz-transition: opacity 1s ease-in-out;
+  -webkit-transition: opacity 1s ease-in-out;
+}
+.alot:hover {
+  opacity: 1;
+  transition: opacity 0.55s ease-in-out;
+  -moz-transition: opacity 0.55s ease-in-out;
+  -webkit-transition: opacity 0.55s ease-in-out;
+}
+.joy {
+  position: absolute;
+  display: flex;
+  z-index: 14;
+  right: 418px;
+  top: 453px;
+  width: 150px;
+  height: 120px;
+  transition: 0.5s;
+  background: black;
+  -webkit-mask: url(https://itsactuallykiki.github.io/fontpicture/joy.png);
+  -webkit-mask-size: cover;
+  opacity: 0.6;
+  transition: opacity 1s ease-in-out;
+  -moz-transition: opacity 1s ease-in-out;
+  -webkit-transition: opacity 1s ease-in-out;
+}
+.joy:hover {
+  opacity: 1;
+  transition: opacity 0.55s ease-in-out;
+  -moz-transition: opacity 0.55s ease-in-out;
+  -webkit-transition: opacity 0.55s ease-in-out;
+}
+.stop {
+  position: absolute;
+  display: flex;
+  z-index: 14;
+  right: 421px;
+  top: 505px;
+  width: 150px;
+  height: 120px;
+  transition: 0.5s;
+  background: black;
+  transform: rotate(25deg);
+  -webkit-mask: url(https://itsactuallykiki.github.io/fontpicture/stop.png);
+  -webkit-mask-size: cover;
+  opacity: 0.6;
+  transition: opacity 1s ease-in-out;
+  -moz-transition: opacity 1s ease-in-out;
+  -webkit-transition: opacity 1s ease-in-out;
+}
+.stop:hover {
+  opacity: 1;
+  transition: opacity 0.55s ease-in-out;
+  -moz-transition: opacity 0.55s ease-in-out;
+  -webkit-transition: opacity 0.55s ease-in-out;
+}
+
+.dont {
+  position: absolute;
+  display: flex;
+  z-index: 14;
+  right: 545px;
+  top: 30px;
+  width: 150px;
+  height: 120px;
+  transition: 0.5s;
+  background: black;
+  -webkit-mask: url(https://itsactuallykiki.github.io/fontpicture/dont.png);
+  -webkit-mask-size: cover;
+  opacity: 0.6;
+  transition: opacity 1s ease-in-out;
+  -moz-transition: opacity 1s ease-in-out;
+  -webkit-transition: opacity 1s ease-in-out;
+}
+.dont:hover {
+  opacity: 1;
+  transition: opacity 0.55s ease-in-out;
+  -moz-transition: opacity 0.55s ease-in-out;
+  -webkit-transition: opacity 0.55s ease-in-out;
+}
+.let {
+  position: absolute;
+  display: flex;
+  z-index: 14;
+  right: 545px;
+  top: 103px;
+  width: 150px;
+  height: 120px;
+  transition: 0.5s;
+  background: black;
+  -webkit-mask: url(https://itsactuallykiki.github.io/fontpicture/let.png);
+  -webkit-mask-size: cover;
+  opacity: 0.6;
+  transition: opacity 1s ease-in-out;
+  -moz-transition: opacity 1s ease-in-out;
+  -webkit-transition: opacity 1s ease-in-out;
+}
+.let:hover {
+  opacity: 1;
+  transition: opacity 0.55s ease-in-out;
+  -moz-transition: opacity 0.55s ease-in-out;
+  -webkit-transition: opacity 0.55s ease-in-out;
+}
+.gold {
+  position: absolute;
+  display: flex;
+  z-index: 14;
+  right: 545px;
+  top: 168px;
+  width: 150px;
+  height: 120px;
+  transition: 0.5s;
+  background: black;
+  -webkit-mask: url(https://itsactuallykiki.github.io/fontpicture/gold.png);
+  -webkit-mask-size: cover;
+  opacity: 0.6;
+  transition: opacity 1s ease-in-out;
+  -moz-transition: opacity 1s ease-in-out;
+  -webkit-transition: opacity 1s ease-in-out;
+}
+.gold:hover {
+  opacity: 1;
+  transition: opacity 0.55s ease-in-out;
+  -moz-transition: opacity 0.55s ease-in-out;
+  -webkit-transition: opacity 0.55s ease-in-out;
+}
+.wine {
+  position: absolute;
+  display: flex;
+  z-index: 14;
+  right: 543px;
+  top: 238px;
+  width: 150px;
+  height: 120px;
+  transition: 0.5s;
+  background: black;
+  -webkit-mask: url(https://itsactuallykiki.github.io/fontpicture/wine.png);
+  -webkit-mask-size: cover;
+  opacity: 0.6;
+  transition: opacity 1s ease-in-out;
+  -moz-transition: opacity 1s ease-in-out;
+  -webkit-transition: opacity 1s ease-in-out;
+}
+.wine:hover {
+  opacity: 1;
+  transition: opacity 0.55s ease-in-out;
+  -moz-transition: opacity 0.55s ease-in-out;
+  -webkit-transition: opacity 0.55s ease-in-out;
+}
+.not {
+  position: absolute;
+  display: flex;
+  z-index: 14;
+  right: 565px;
+  top: 313px;
+  width: 150px;
+  height: 120px;
+  transition: 0.5s;
+  background: black;
+  -webkit-mask: url(https://itsactuallykiki.github.io/fontpicture/not.png);
+  -webkit-mask-size: cover;
+  opacity: 0.6;
+  transition: opacity 1s ease-in-out;
+  -moz-transition: opacity 1s ease-in-out;
+  -webkit-transition: opacity 1s ease-in-out;
+}
+.not:hover {
+  opacity: 1;
+  transition: opacity 0.55s ease-in-out;
+  -moz-transition: opacity 0.55s ease-in-out;
+  -webkit-transition: opacity 0.55s ease-in-out;
+}
+.to {
+  position: absolute;
+  display: flex;
+  z-index: 14;
+  right: 565px;
+  top: 383px;
+  width: 150px;
+  height: 120px;
+  transition: 0.5s;
+  background: black;
+  -webkit-mask: url(https://itsactuallykiki.github.io/fontpicture/to.png);
+  -webkit-mask-size: cover;
+  opacity: 0.6;
+  transition: opacity 1s ease-in-out;
+  -moz-transition: opacity 1s ease-in-out;
+  -webkit-transition: opacity 1s ease-in-out;
+}
+.to:hover {
+  opacity: 1;
+  transition: opacity 0.55s ease-in-out;
+  -moz-transition: opacity 0.55s ease-in-out;
+  -webkit-transition: opacity 0.55s ease-in-out;
+}
+.moon {
+  position: absolute;
+  display: flex;
+  z-index: 14;
+  right: 565px;
+  top: 453px;
+  width: 150px;
+  height: 120px;
+  transition: 0.5s;
+  background: black;
+  -webkit-mask: url(https://itsactuallykiki.github.io/fontpicture/moon.png);
+  -webkit-mask-size: cover;
+  opacity: 0.6;
+  transition: opacity 1s ease-in-out;
+  -moz-transition: opacity 1s ease-in-out;
+  -webkit-transition: opacity 1s ease-in-out;
+}
+.moon:hover {
+  opacity: 1;
+  transition: opacity 0.55s ease-in-out;
+  -moz-transition: opacity 0.55s ease-in-out;
+  -webkit-transition: opacity 0.55s ease-in-out;
+}
+.finish {
+  position: absolute;
+  display: flex;
+  z-index: 14;
+  right: 565px;
+  top: 505px;
+  width: 150px;
+  height: 120px;
+  transition: 0.5s;
+  background: black;
+  transform: rotate(25deg) scale(0.8);
+  -webkit-mask: url(https://itsactuallykiki.github.io/fontpicture/finish.png);
+  -webkit-mask-size: cover;
+  opacity: 0.6;
+  transition: opacity 1s ease-in-out;
+  -moz-transition: opacity 1s ease-in-out;
+  -webkit-transition: opacity 1s ease-in-out;
+}
+.finish:hover {
+  opacity: 1;
+  transition: opacity 0.55s ease-in-out;
+  -moz-transition: opacity 0.55s ease-in-out;
+  -webkit-transition: opacity 0.55s ease-in-out;
+}
+/*
+bigfront {
+  position: absolute;
+  z-index: 14;
+  right: 60px;
+  top: 115px;
+  font-weight: lighter;
+}
+h1 {
+  font-family: "Liu Jian Mao Cao", cursive;
+  font-size: 80px;
+  text-shadow: 1px 1px 3px #000000;
+}
+smallfront {
+  position: absolute;
+  z-index: 14;
+  right: 15px;
+  top: 320px;
+}
+h3 {
+  font-family: "Zhi Mang Xing", cursive;
+  font-size: 35px;
+  text-shadow: 0.5px 0.5px 2px #000000;
+}
+*/
+.sky {
+  background-color: #edf0f1;
+  display: flex;
+  position: relative;
+  height: 300px;
+  z-index: 1;
+  box-shadow: inset 20px 15px 50px rgba(148, 122, 109, 0.3);
+}
+.land {
+  background-color: #cdd9dc;
+  display: flex;
+  height: 380px;
+  z-index: 3;
+  position: relative;
+  box-shadow: inset 3px 10px 20px rgba(87, 124, 138, 0.3);
+}
+.mount1 {
+  height: 180px;
+  width: 40%;
+  top: 200px;
+  position: absolute;
+  background: #a5afb2;
+  border-radius: 40% 80% 0 0;
+  z-index: 5;
+  box-shadow: inset 30px 0 20px rgba(0, 0, 0, 0.2);
+}
+.mount5 {
+  height: 180px;
+  width: 360px;
+  top: 200px;
+  position: absolute;
+  background: #a5afb2;
+  border-radius: 80% 90% 0 0;
+  box-shadow: inset 30px 0 20px rgba(0, 0, 0, 0.2);
+  z-index: 5;
+}
+.mount2 {
+  height: 300px;
+  width: 1400px;
+  left: 300px;
+  top: 130px;
+  position: absolute;
+  background: #a5afb2;
+  border-radius: 100% 0 0 0;
+  box-shadow: 20px 20px 30px 20px rgba(0, 0, 0, 0.15) inset;
+  z-index: 5;
+}
+
+.sun {
+  background: #e06c60;
+  height: 140px;
+  width: 140px;
+  position: absolute;
+  border-radius: 50%;
+  top: 190px;
+  left: 510px;
+  box-shadow: 15px 20px 30px #cc543a inset;
+  z-index: 3;
+  transition: all 5s cubic-bezier(0.645, 0.045, 0.355, 1) 0.3s;
+}
+.sun:hover {
+  transform: rotate(660deg);
+  top: -10px;
+  left: 130px;
+}
+.tree {
+}
+.trunk1 {
+  position: absolute;
+  height: 0px;
+  width: 130px;
+  top: 300px;
+  right: -40px;
+  background: transparent;
+  border-top: 0px solid white;
+  border-right: 40px solid transparent;
+  border-bottom: 145px solid #696860;
+  border-left: 70px solid transparent;
+  transform: rotate(290deg);
+  z-index: 10;
+}
+.trunk2 {
+  position: absolute;
+  height: 0px;
+  width: 28px;
+  top: 292px;
+  right: 95px;
+  background: transparent;
+  border-top: 0px solid white;
+  border-right: 10px solid transparent;
+  border-bottom: 95px solid #696860;
+  border-left: 10px solid transparent;
+  transform: rotate(271deg);
+  z-index: 10;
+}
+.trunk3 {
+  position: absolute;
+  height: 13px;
+  width: 130px;
+  top: 290px;
+  right: 132px;
+  background: #696860;
+  transform: rotate(221deg);
+  z-index: 10;
+}
+.trunk4 {
+  position: absolute;
+  height: 0px;
+  width: 13px;
+  top: 210px;
+  right: 275px;
+  background: transparent;
+  border-top: 0px solid white;
+  border-right: 5px solid transparent;
+  border-bottom: 80px solid #696860;
+  border-left: 4px solid transparent;
+  transform: rotate(278deg);
+  z-index: 10;
+}
+.trunk5 {
+  position: absolute;
+  height: 0px;
+  width: 10px;
+  top: 230px;
+  right: 342px;
+  background: transparent;
+  border-top: 0px solid white;
+  border-right: 4px solid transparent;
+  border-bottom: 80px solid #696860;
+  border-left: 3px solid transparent;
+  transform: rotate(55deg);
+  z-index: 10;
+}
+.trunk6 {
+  position: absolute;
+  height: 0px;
+  width: 10px;
+  top: 280px;
+  right: 395px;
+  background: transparent;
+  border-top: 0px solid white;
+  border-right: 5px solid transparent;
+  border-bottom: 80px solid #696860;
+  border-left: 4px solid transparent;
+  transform: rotate(218deg);
+  z-index: 10;
+}
+.trunk7 {
+  position: absolute;
+  height: 0px;
+  width: 10px;
+  top: 280px;
+  right: 355px;
+  background: transparent;
+  border-top: 0px solid white;
+  border-right: 5px solid transparent;
+  border-bottom: 80px solid #696860;
+  border-left: 4px solid transparent;
+  transform: rotate(170deg);
+  z-index: 10;
+}
+.trunk8 {
+  position: absolute;
+  height: 0px;
+  width: 13px;
+  top: 175px;
+  right: 285px;
+  background: transparent;
+  border-top: 0px solid white;
+  border-right: 5px solid transparent;
+  border-bottom: 80px solid #696860;
+  border-left: 4px solid transparent;
+  transform: rotate(340deg);
+  z-index: 10;
+}
+.trunk9 {
+  position: absolute;
+  height: 0px;
+  width: 8px;
+  top: 140px;
+  right: 330px;
+  background: transparent;
+  border-top: 0px solid white;
+  border-right: 3px solid transparent;
+  border-bottom: 70px solid #696860;
+  border-left: 2px solid transparent;
+  transform: rotate(285deg);
+  z-index: 10;
+}
+.trunk10 {
+  position: absolute;
+  height: 0px;
+  width: 30px;
+  top: 285px;
+  right: 65px;
+  background: transparent;
+  border-top: 0px solid white;
+  border-right: 15px solid transparent;
+  border-bottom: 60px solid #696860;
+  border-left: 4px solid transparent;
+  transform: rotate(350deg);
+  z-index: 10;
+}
+.trunk11 {
+  position: absolute;
+  height: 0px;
+  width: 13px;
+  top: 225px;
+  right: 60px;
+  background: transparent;
+  border-top: 0px solid white;
+  border-right: 5px solid transparent;
+  border-bottom: 80px solid #696860;
+  border-left: 4px solid transparent;
+  transform: rotate(35deg);
+  z-index: 10;
+}
+.trunk12 {
+  position: absolute;
+  height: 0px;
+  width: 13px;
+  top: 225px;
+  right: 100px;
+  background: transparent;
+  border-top: 0px solid white;
+  border-right: 5px solid transparent;
+  border-bottom: 80px solid #696860;
+  border-left: 4px solid transparent;
+  transform: rotate(335deg);
+  z-index: 10;
+}
+.leaf1 {
+  position: absolute;
+  height: 180px;
+  width: 3px;
+  background: #779076;
+  right: 400px;
+  top: 325px;
+  z-index: 9;
+  border-radius: 50% / 50%;
+  animation-name: leaf01move;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+@keyframes leaf01move {
+  0% {
+    transform: rotate(5deg);
+    top: 320px;
+    right: 405px;
+  }
+  50% {
+    transform: rotate(8deg);
+    top: 315px;
+    right: 410px;
+  }
+  100% {
+    transform: rotate(-3deg);
+    right: 399px;
+    top: 323px;
+  }
+}
+
+.leaf2 {
+  position: absolute;
+  height: 180px;
+  width: 4px;
+  background: #779076;
+  right: 350px;
+  top: 270px;
+  z-index: 9;
+  border-radius: 50% / 50%;
+  animation-name: leaf02move;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+@keyframes leaf02move {
+  0% {
+    transform: rotate(4deg);
+    right: 355px;
+    top: 270px;
+  }
+  50% {
+    transform: rotate(10deg);
+    right: 364px;
+    top: 269px;
+  }
+  100% {
+    transform: rotate(-3deg);
+    right: 350px;
+    top: 272px;
+  }
+}
+
+.leaf3 {
+  position: absolute;
+  height: 220px;
+  width: 5px;
+  background: #779076;
+  right: 335px;
+  top: 170px;
+  z-index: 9;
+  border-radius: 50% / 50%;
+  animation-name: leaf03move;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+@keyframes leaf03move {
+  0% {
+    transform: rotate(7deg);
+    right: 340px;
+    top: 169px;
+  }
+  50% {
+    transform: rotate(15deg);
+    right: 358px;
+    top: 173px;
+  }
+  100% {
+    transform: rotate(-1deg);
+    right: 333px;
+    top: 171px;
+  }
+}
+
+.leaf4 {
+  position: absolute;
+  height: 200px;
+  width: 2px;
+  background: #779076;
+  right: 310px;
+  top: 185px;
+  z-index: 9;
+  border-radius: 50% / 50%;
+  animation-name: leaf04move;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+@keyframes leaf04move {
+  0% {
+    transform: rotate(5deg);
+    right: 315px;
+    top: 183px;
+  }
+  50% {
+    transform: rotate(8deg);
+    right: 325px;
+    top: 185px;
+  }
+  100% {
+    transform: rotate(-3deg);
+    right: 312px;
+    top: 182px;
+  }
+}
+
+.leaf5 {
+  position: absolute;
+  height: 220px;
+  width: 4px;
+  background: #779076;
+  right: 270px;
+  top: 250px;
+  z-index: 9;
+  border-radius: 50% / 50%;
+  animation-name: leaf05move;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+@keyframes leaf05move {
+  0% {
+    transform: rotate(4deg);
+    right: 274px;
+    top: 247px;
+  }
+  50% {
+    transform: rotate(10deg);
+    right: 287px;
+    top: 248px;
+  }
+  100% {
+    transform: rotate(-3deg);
+    right: 268px;
+    top: 250px;
+  }
+}
+
+.leaf6 {
+  position: absolute;
+  height: 180px;
+  width: 4px;
+  background: #c3d2bf;
+  right: 220px;
+  top: 270px;
+  z-index: 9;
+  border-radius: 50% / 50%;
+  animation-name: leaf06move;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+@keyframes leaf06move {
+  0% {
+    transform: rotate(4deg);
+    right: 224px;
+    top: 270px;
+  }
+  50% {
+    transform: rotate(10deg);
+    right: 237px;
+    top: 270px;
+  }
+  100% {
+    transform: rotate(-3deg);
+    right: 218px;
+    top: 270px;
+  }
+}
+
+.leaf7 {
+  position: absolute;
+  height: 220px;
+  width: 5px;
+  background: #779076;
+  right: 120px;
+  top: 230px;
+  z-index: 9;
+  border-radius: 50% / 50%;
+  animation-name: leaf07move;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+@keyframes leaf07move {
+  0% {
+    transform: rotate(5deg);
+    right: 125px;
+    top: 230px;
+  }
+  50% {
+    transform: rotate(8deg);
+    right: 130px;
+    top: 235px;
+  }
+  100% {
+    transform: rotate(-3deg);
+    right: 112px;
+    top: 232px;
+  }
+}
+
+.leaf8 {
+  position: absolute;
+  height: 150px;
+  width: 3px;
+  background: #8cab8e;
+  right: 100px;
+  top: 280px;
+  z-index: 9;
+  border-radius: 50% / 50%;
+  animation-name: leaf08move;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+@keyframes leaf08move {
+  0% {
+    transform: rotate(7deg);
+    right: 105px;
+    top: 280px;
+  }
+  50% {
+    transform: rotate(15deg);
+    right: 123px;
+    top: 289px;
+  }
+  100% {
+    transform: rotate(-1deg);
+    right: 100px;
+    top: 280px;
+  }
+}
+
+.leaf9 {
+  position: absolute;
+  height: 180px;
+  width: 4px;
+  background: #779076;
+  right: 198px;
+  top: 285px;
+  z-index: 9;
+  border-radius: 50% / 50%;
+  animation-name: leaf09move;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+@keyframes leaf09move {
+  0% {
+    transform: rotate(7deg);
+    right: 203px;
+    top: 285px;
+  }
+  50% {
+    transform: rotate(15deg);
+    right: 221px;
+    top: 290px;
+  }
+  100% {
+    transform: rotate(-1deg);
+    right: 195px;
+    top: 288px;
+  }
+}
+
+.leaf10 {
+  position: absolute;
+  height: 250px;
+  width: 3px;
+  background: #8cab8e;
+  right: 260px;
+  top: 250px;
+  z-index: 9;
+  border-radius: 50% / 50%;
+  animation-name: leafJUSTwantslowlymove;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+.leaf11 {
+  position: absolute;
+  height: 250px;
+  width: 4px;
+  background: linear-gradient(to bottom, #a0b4a0 0%, #779076 80%);
+  right: 290px;
+  top: 225px;
+  z-index: 9;
+  border-radius: 50% / 50%;
+  animation-name: leafJUSTwantslowlymove;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+.leaf12 {
+  position: absolute;
+  height: 200px;
+  width: 4px;
+  background: #b8cbba;
+  right: 300px;
+  top: 250px;
+  z-index: 9;
+  border-radius: 50% / 50%;
+  animation-name: leafJUSTwantslowlymove;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+@keyframes leafJUSTwantslowlymove {
+  0% {
+    transform: rotate(1deg);
+  }
+  50% {
+    transform: rotate(2deg);
+  }
+  100% {
+    transform: rotate(-2deg);
+  }
+}
+
+.leaf13 {
+  position: absolute;
+  height: 250px;
+  width: 2px;
+  background: #c3d2bf;
+  right: 360px;
+  top: 170px;
+  z-index: 9;
+  border-radius: 50% / 50%;
+  animation-name: leaf13move;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+@keyframes leaf13move {
+  0% {
+    transform: rotate(3deg);
+    right: 365px;
+    top: 170px;
+  }
+  50% {
+    transform: rotate(8deg);
+    right: 378px;
+    top: 170px;
+  }
+  100% {
+    transform: rotate(-2deg);
+    right: 358px;
+    top: 170px;
+  }
+}
+
+.leaf14 {
+  position: absolute;
+  height: 150px;
+  width: 5px;
+  background: #b5c6b8;
+  right: 385px;
+  top: 300px;
+  z-index: 9;
+  border-radius: 50% / 50%;
+  box-shadow: inset 3px 10px 20px rgba(0, 0, 0, 0.2);
+  animation-name: leafJUSTwantslowlymove;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+.leaf15 {
+  position: absolute;
+  height: 250px;
+  width: 4px;
+  background: #b5c6b8;
+  right: 340px;
+  top: 175px;
+  z-index: 9;
+  border-radius: 50% / 50%;
+  box-shadow: inset 3px 10px 20px rgba(0, 0, 0, 0.2);
+  animation-name: leafJUSTwantslowlymove;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+.wave1 {
+  position: absolute;
+  top: 150px;
+  background: rgba(185, 204, 209, 0.6);
+  width: 1600px;
+  height: 300px;
+  border-top-right-radius: 100% 100px;
+  border-top-left-radius: 100% 0px;
+  border-bottom-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  z-index: 8;
+  animation-name: wave1move;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+@keyframes wave1move {
+  0% {
+    left: 0px;
+  }
+  50% {
+    top: 300px;
+  }
+  100% {
+    left: 0px;
+  }
+}
+
+.wave2 {
+  position: absolute;
+  top: 80px;
+  left: 0px;
+  background: rgba(185, 204, 209, 0.4);
+  width: 1600px;
+  height: 222px;
+  border-top-right-radius: 100% 85px;
+  border-top-left-radius: 100% 45px;
+  border-bottom-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  z-index: 8;
+  animation-name: wave2move;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+@keyframes wave2move {
+  0% {
+    right: 0px;
+  }
+  30% {
+    top: 220px;
+  }
+  100% {
+    right: 0px;
+  }
+}
+
+.wave3 {
+  position: absolute;
+  top: 15px;
+  background: rgba(185, 204, 209, 0.4);
+  width: 1600px;
+  height: 300px;
+  border-top-right-radius: 100% 35px;
+  border-top-left-radius: 100% 35px;
+  z-index: 8;
+  animation-name: wave3move;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+@keyframes wave3move {
+  0% {
+    left: 0px;
+  }
+  30% {
+    top: 150px;
+  }
+
+  100% {
+    left: 0px;
+  }
+}
+.birdone1 {
+  position: absolute;
+  width: 50px;
+  height: 20px;
+  left: 150px;
+  background: ;
+  border-radius: 50px 50px 30px 30px;
+  z-index: 5;
+  border-top: 8px solid #52433d;
+  transform: rotate(13deg);
+  animation-name: birdone1move;
+  animation-duration: 60s;
+  animation-iteration-count: 5;
+  animation-direction: alternate;
+}
+
+.birdone2 {
+  position: absolute;
+  width: 50px;
+  height: 20px;
+  left: 190px;
+  border-radius: 50px 50px 30px 30px;
+  z-index: 5;
+  border-top: 8px solid #52433d;
+  z-index: 5;
+  transform: rotate(-15deg);
+  animation-name: birdone2move;
+  animation-duration: 60s;
+  animation-iteration-count: 5;
+  animation-direction: alternate;
+}
+/*birdone{
+  position:absolute;
+  z-index: 5;
+  animation-name: bird1move;
+  animation-duration: 8s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+@keyframes bird1move {
+  0% {
+    top: 0px;
+    left: 150px;
+  }
+  25% {
+    transform: scale(0.8);
+    left: 240px;
+    top: 70px;
+  }
+  50% {
+    transform: scale(0.5) ;
+    left: 340px;
+    top: 140px;
+  }
+  75% {
+    transform: scale(0.2);
+    top: 210px;
+    left: 430px;
+  }
+}*/
+@keyframes birdone1move {
+  0% {
+    top: 0px;
+    left: 150px;
+  }
+
+  100% {
+    transform: rotate(13deg) scale(0.2);
+    top: 280px;
+    left: 530px;
+  }
+}
+@keyframes birdone2move {
+  0% {
+    top: 0px;
+    left: 190px;
+  }
+
+  100% {
+    transform: rotate(-15deg) scale(0.2);
+    top: 280px;
+    left: 538px;
+  }
+}
+
+.birdtwo1 {
+  position: absolute;
+  width: 20px;
+  height: 10px;
+  left: 800px;
+  border-radius: 250px 250px 30px 30px;
+  border-top: 4px solid #52433d;
+  z-index: 5;
+  transform: rotate(13deg);
+  animation-name: birdtwo1move;
+  animation-duration: 40s;
+  animation-iteration-count: 5;
+  animation-direction: alternate;
+}
+.birdtwo2 {
+  position: absolute;
+  width: 20px;
+  height: 10px;
+  left: 815px;
+  border-radius: 250px 250px 30px 30px;
+  border-top: 4px solid #52433d;
+  z-index: 5;
+  transform: rotate(-15deg);
+  animation-name: birdtwo2move;
+  animation-duration: 40s;
+  animation-iteration-count: 5;
+  animation-direction: alternate;
+}
+@keyframes birdtwo1move {
+  0% {
+    top: 0px;
+    left: 800px;
+  }
+
+  100% {
+    transform: rotate(13deg) scale(0.2);
+    top: 280px;
+    left: 510px;
+  }
+}
+@keyframes birdtwo2move {
+  0% {
+    top: 0px;
+    left: 815px;
+  }
+
+  100% {
+    transform: rotate(-15deg) scale(0.2);
+    top: 280px;
+    left: 511px;
+  }
+}
+.cloud1 {
+  position: absolute;
+  z-index: 10;
+  width: 200px;
+  top: 40px;
+  left: 30px;
+  height: 80px;
+  background: rgba(254, 253, 253, 0.6);
+  clip-path: polygon(
+    43% 22%,
+    69% 17%,
+    94% 37%,
+    93% 54%,
+    79% 62%,
+    50% 63%,
+    26% 67%,
+    8% 61%,
+    2% 36%,
+    18% 20%
+  );
+  z-index: 7;
+}
+.cloud2 {
+  position: absolute;
+  width: 180px;
+  height: 90px;
+  top: 190px;
+  background: rgba(254, 253, 253, 0.3);
+  clip-path: polygon(
+    43% 22%,
+    75% 17%,
+    96% 30%,
+    100% 55%,
+    90% 73%,
+    57% 78%,
+    32% 66%,
+    6% 60%,
+    3% 37%,
+    18% 20%
+  );
+  z-index: 7;
+  animation-name: cloud2move;
+  animation-duration: 70s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+@keyframes cloud2move {
+  0% {
+    left: 50px;
+  }
+  25% {
+    left: 350px;
+  }
+
+  100% {
+    left: 1000px;
+  }
+}
+
+.cloud3 {
+  position: absolute;
+  width: 180px;
+  height: 90px;
+  left: 1000px;
+  top: 165px;
+  background: rgba(254, 253, 253, 0.6);
+  clip-path: polygon(
+    40% 33%,
+    70% 34%,
+    93% 38%,
+    95% 53%,
+    81% 60%,
+    60% 59%,
+    31% 63%,
+    4% 54%,
+    3% 43%,
+    19% 36%
+  );
+  z-index: 7;
+  animation-name: cloud3move;
+  animation-duration: 80s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+@keyframes cloud3move {
+  0% {
+    right: 50px;
+  }
+  25% {
+    right: 350px;
+  }
+
+  100% {
+    left: 0px;
+  }
+}
+/*
+.reflection1{
+  position:absolute;
+  left:270px;
+  top:20px;
+  z-index:9;
+  width:150px;
+  height:30px;
+  border-radius: 80px 50px 30px 50px;
+  border-left: 5px solid rgba(236, 184, 138, 0.3);
+}
+.reflection1:before{
+  content: "";
+  position:absolute;
+  left:1px;
+  z-index:9;
+  width:130px;
+  height:3px;
+  background:rgba(236, 184, 138, 0.3);
+  
+}
+.reflection1:after{
+  content: "";
+  position:absolute;
+  top:27px;
+  left:2px;
+  z-index:9;
+  width:110px;
+  height:3px;
+  background:rgba(236, 184, 138, 0.3);
+}
+*/
+.leaves {
+  position: fixed;
+  width: 200px;
+  height: 200px;
+  z-index: 16;
+  right: -100px;
+  top: -50px;
+  transform: rotate(55deg);
+  animation-name: leavesmove;
+  animation-duration: 30s;
+  animation-iteration-count: 100;
+  animation-direction: alternate;
+}
+.root {
+  position: absolute;
+  top: 0px;
+  left: 100px;
+  width: 60px;
+  height: 150px;
+  border-radius: 100px 20px 40px 20px;
+  border-top: 10px solid #bc9f77;
+  transform: rotate(360deg);
+  box-shadow: inset 0 0.3px 0 rgba(0, 0, 0, 0.2);
+}
+.leaves1 {
+  position: absolute;
+  left: 45px;
+  top: 15px;
+  width: 120px;
+  height: 90px;
+  border-radius: 100px 100px 30px 30px;
+  border-top: 5px solid #c1693c;
+  transform: rotate(315deg);
+}
+.leaves2 {
+  position: absolute;
+  top: 20px;
+  left: 10px;
+  width: 160px;
+  height: 120px;
+  border-radius: 100px 100px 30px 30px;
+  border-top: 70px solid #ca7a2c;
+  transform: rotate(295deg);
+  box-shadow: inset 0.5px 1.5px 0 rgba(0, 0, 0, 0.2);
+}
+@keyframes leavesmove {
+  0% {
+    right: -100px;
+    top: -50px;
+  }
+  8% {
+    transform: scale(1.1) rotate(10deg);
+  }
+  15% {
+    transform: scale(0.8) rotate(90deg);
+  }
+  30% {
+    top: 400px;
+    right: 700px;
+    transform: rotate(350deg);
+  }
+
+  40% {
+    transform: scale(0.6) rotate(10deg);
+    right: 1200px;
+    top: 50px;
+  }
+  100% {
+    right: 2000px;
+    top: 0px;
+  }
+}
+
+.down {
+  width: 1600px;
+  height: 100px;
+  font-family: "Dancing Script", cursive;
+  font-size: 32px;
+  z-index: 13;
+}
